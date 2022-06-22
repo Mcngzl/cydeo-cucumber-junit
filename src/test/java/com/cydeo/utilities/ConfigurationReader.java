@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
+
     //1- Create the object of Properties
     private static Properties properties = new Properties();
 

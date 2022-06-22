@@ -5,14 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DropdownsPages {
+public class DropdownsPage {
 
-    public DropdownsPages(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public DropdownsPage(){
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(id = "month")
     public WebElement monthDropdown;
-
 
 }
